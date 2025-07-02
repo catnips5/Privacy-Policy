@@ -16,52 +16,54 @@
 <body>
 
 <h1>Privacy Policy – Freestyle Makerr</h1>
-<p><strong>Last updated:</strong> 28 Jun 2025<br>
-<strong>Developer/Owner:</strong> Gaon_ai<br>
+<p><strong>Last updated:</strong> 2 Jul 2025<br>
+<strong>Developer / Owner:</strong> Gaon_ai (sole creator)<br>
 <strong>Address:</strong> Jerusalem, Israel<br>
 <strong>Contact e-mail:</strong> <a href="mailto:gaonai5555@gmail.com">gaonai5555@gmail.com</a></p>
 
 <h2>1. Introduction</h2>
-<p>“Freestyle Makerr” (the <em>“App”</em>) lets music lovers record freestyle vocals, play drum-pads and capture their performance. We respect your privacy and collect no personal data.</p>
+<p>I respect your privacy. “Freestyle Makerr” (the <em>“App”</em>) collects, stores and shares <strong>no</strong> personal data.</p>
 
-<h2>2. Data We Collect</h2>
+<h2>2. Data I Collect</h2>
 <ul>
-  <li>No personal or analytical data is collected, stored or shared.</li>
-  <li>During recording, a temporary audio file is created in the App’s sandbox and deleted when the user leaves the Playback/Export screen unless shared immediately (e.g. via WhatsApp).</li>
-  <li>No backend server, no advertising SDKs, no analytics SDKs.</li>
+  <li>I do not collect, store or share any personal or analytical data.</li>
+  <li>During recording, the App creates a temporary audio file inside its private cache (<code>getTemporaryDirectory()</code>) and deletes it when the user leaves the Playback / Export screen.</li>
+  <li>When the user taps <strong>“Share”</strong>, the file is copied to the App’s <em>external</em> cache so WhatsApp (or another target app) can read it, then deleted automatically as soon as the share sheet closes.</li>
+  <li>The App includes no backend server, advertising SDKs or analytics SDKs.</li>
 </ul>
 
 <h2>3. Device Permission</h2>
 <table>
   <tr><th>Permission</th><th>Purpose</th><th>Prompt timing</th></tr>
-  <tr><td>RECORD_AUDIO / Microphone</td><td>Capture freestyle vocals &amp; drum pads</td><td>First tap on “Record”</td></tr>
+  <tr><td>RECORD_AUDIO / Microphone</td><td>Capture freestyle vocals &amp; drum-pads</td><td>First tap on “Record”</td></tr>
 </table>
-<p>No other permissions are requested (storage, location, camera, etc.).</p>
+<p>No other permissions (storage, location, camera, etc.) are requested.</p>
 
 <h2>4. Third-Party Sharing</h2>
-<p>The App does not sell, rent or share any user data. No external SDKs are integrated.</p>
+<p>The App never sells, rents or shares user data. Once a recording is handed off to a third-party app (e.g. WhatsApp), its further storage and processing are governed solely by that app’s privacy policy; I have no access to, or control over, the file after hand-off.</p>
 
 <h2>5. Security</h2>
 <ul>
-  <li>Audio files remain in the App’s private sandbox; no extra encryption is applied.</li>
-  <li>With no network traffic, interception risk is minimal.</li>
-  <li>The App is code-signed via Google Play App Signing and Apple App Store.</li>
+  <li>Audio files remain in the App’s sandbox and cache; no additional encryption is required because they never leave the device unless the user decides to share them.</li>
+  <li>I disable Android system backup (<code>android:allowBackup="false"</code> and <code>android:fullBackupContent="false"</code>) so cached audio is not included in device backups.</li>
+  <li>Because the App exchanges no network traffic, interception risk is minimal.</li>
+  <li>The App is code-signed through Google Play App Signing (Android) and the Apple App Store (iOS).</li>
 </ul>
 
 <h2>6. Children</h2>
-<p>The App targets a general audience and is not directed to children under 13. Should we learn that information was provided by a child, it will be deleted immediately.</p>
+<p>The App targets a general audience and is not directed to children under 13. If I learn that information was provided by a child, I will delete it immediately.</p>
 
 <h2>7. Copyright</h2>
-<p>All audio, graphics and text in the App are copyright-protected. Commercial use is prohibited without prior written consent from Gaon_ai.</p>
+<p>All audio, graphics and text in the App are © Gaon_ai. Commercial use is prohibited without prior written consent.</p>
 
 <h2>8. User Rights</h2>
-<p>Because we collect no personal data, there is nothing to access, correct or delete. Feel free to contact us via e-mail.</p>
+<p>Because I collect no personal data, there is nothing for you to access, correct or delete. If you have any questions, e-mail me at the address above.</p>
 
 <h2>9. Changes</h2>
-<p>We may update this Policy from time to time; the new date will appear at the top. Material changes will be highlighted in-App.</p>
+<p>I may update this Policy from time to time; the new date will appear at the top. Material changes will be highlighted inside the App.</p>
 
-<h2>10. GDPR &amp; CCPA Compliance</h2>
-<p>The App is available worldwide. As of today no personal data is processed; should that change we will request explicit consent and update this Policy accordingly.</p>
+<h2>10. GDPR & CCPA Compliance</h2>
+<p>The App is available worldwide. As of today I process no personal data; should that change I will request explicit consent and update this Policy accordingly.</p>
 
 </body>
 </html>
